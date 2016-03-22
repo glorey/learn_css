@@ -1,0 +1,56 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<head>
+<style type="text/css">
+p.pre_class {white-space: pre;}
+p.normal_class {white-space:normal;}
+p.nowrap_class {white-space:nowrap;}
+p.prewrap_class {white-space:pre-wrap;}
+p.preline_class {white-space:pre-line;}
+</style>
+</head>
+
+<body>
+
+<p class="pre_class">This     paragraph has    many
+    spaces           in it.</p>
+
+<p>注释：当 white-space 属性设置为 pre 时，浏览器不会合并空白符，也不会忽略换行符。</p>
+
+<p class="normal_class">This     paragraph has    many
+    spaces           in it.</p>
+
+<p>注释：当 white-space 属性设置为 normal 时，会合并所有的空白符，并忽略换行符。</p>
+
+<p class="nowrap_class">
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+这是一些文本。
+</p>
+<p>nowrap，它会防止元素中的文本换行，除非使用了一个 br 元素</p>
+
+
+<p class="prewrap_class">This     paragraph has    a  great    many  s p a c e s   with
+its textual  content, but their    preservation     will  not prevent
+line   wrapping or line breaking.</p>
+
+<p>注释：当 white-space 属性设置为 pre-wrap 时，浏览器不仅会保留空白符并保留换行符，还允许自动换行。</p>
+
+<p class="preline_class">This     paragraph has    a  great    many  s p a c e s   with
+its textual  content, but their    collapse     will  not prevent
+line   wrapping or line breaking.</p>
+
+<p>注释：当 white-space 属性设置为 pre-line 时，浏览器会保留换行符，并允许自动换行，但是会合并空白符，这是与 pre-wrap 值的不同之处。</p>
+
+</body>
+
+</html>
